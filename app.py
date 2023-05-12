@@ -175,7 +175,7 @@ def main():
     app.config['UPLOAD_FOLDER'] = UPLOAD_FOLDER
     app.config['MAX_CONTENT_SIZE'] = 16 * 1024 * 1024  ##16Mb upload limit
     
-    app.run(port=5000, debug=True)
+    app.run(port=5000, debug=False)
 
 
 
